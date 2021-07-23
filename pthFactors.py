@@ -48,11 +48,11 @@ If the index does not exist, return 0:
 >>> pthFactor(1000000000000000, 5)
 8
 
->>> pthFactor(24, 2)
-2
+>>> pthFactor(704709720, 50)
+165
 
->>> pthFactor(467685431, 1)
-1
+>>> pthFactor(467685431, 5)
+0
 
 """
 
