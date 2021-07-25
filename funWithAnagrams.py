@@ -1,3 +1,31 @@
+"""
+Write a function that takes in a list.
+
+Return a string list that contains the first instance
+of any words that are anagrams and any words that 
+aren't anagrams:
+
+>>> funWithAnagrams([])
+[]
+
+>>> funWithAnagrams([444, "code", "aaagmnrs", 3.12, "anagrams", "doce", 22453])
+['aaagmnrs', 'code']
+
+>>> funWithAnagrams(["poke", "pkoe", "okpe", "ekop"])
+['poke']
+
+>>> funWithAnagrams(["code", "doce", "ecod", "framer", "frame"])
+['code', 'frame', 'framer']
+
+>>> funWithAnagrams(["code", "aaagmnrs", "anagrams"])
+['aaagmnrs', 'code']
+
+>>> funWithAnagrams([3, "aaa", "bbb", "ccc"])
+['aaa', 'bbb', 'ccc']
+
+"""
+
+
 def funWithAnagrams(text):
     text_list = list(text)
     new_list = []
@@ -35,11 +63,7 @@ def funWithAnagrams(text):
 
 
 
-funWithAnagrams([])
-funWithAnagrams([444, "code", "aaagmnrs", 3.12, "anagrams", "doce", 444]) # => ["aaagmnrs", "code"]
-funWithAnagrams(["poke", "pkoe", "okpe", "ekop"]) # => [poke]
-funWithAnagrams(["code", "doce", "ecod", "framer", "frame"]) # => ["code", "frame", "framer"]
-funWithAnagrams(["code", "aaagmnrs", "anagrams"]) # => ["aaagmnrs", "code"]
-funWithAnagrams([4, "code","aaagmnrs", "anagrams", "doce"]) # => ["aaagmnrs", "code"]
-funWithAnagrams([3, "aaa", "bbb", "ccc"]) # => ["aaa", "bbb", "ccc"]
-# return a sorted string list of the FIRST anagram in the list and all other words that aren't anagrams
+if __name__ == '__main__':
+    import doctest
+    if doctest.testmod().failed == 0:
+        print('\n🥳 ALL TESTS PASSED! YAY!\n')
