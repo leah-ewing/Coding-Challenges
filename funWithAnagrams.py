@@ -1,7 +1,7 @@
 """
 Write a function that takes in a list.
 
-Return a string list that contains the first instance
+Return a sorted string list that contains the first instance
 of any words that are anagrams and any words that 
 aren't anagrams:
 
