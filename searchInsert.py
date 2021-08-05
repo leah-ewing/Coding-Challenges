@@ -20,6 +20,12 @@ You must write an algorithm with O(log n) runtime complexity.
 >>> searchInsert([1], 0)
 0
 
+>>> searchInsert([2, 3, 4, 7, 8, 9], 5)
+3
+
+>>> searchInsert([100, 200, 300, 400], 50)
+0
+
 """
 
 
