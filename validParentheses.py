@@ -31,6 +31,12 @@ False
 >>> isValid("(){}}{")
 False
 
+>>> isValid("(abc){}")
+True
+
+>>> isValid("[]def)(")
+False
+
 """
 
 def isValid(s):
@@ -75,21 +81,6 @@ def isValid(s):
         answer = False
 
     print(answer)
-
-
-# isValid("()") # => true
-# print("-"*10)
-# isValid("()[]{}") # => true
-# print("-"*10)
-# isValid("(]") # => false
-# print("-"*10)
-# isValid("([)]") # => false
-# print("-"*10)
-# isValid("") # => false
-# print("-"*10)
-# isValid("(abc){}") # => true
-# print("-"*10)
-# isValid("((") # => False
 
 
 
