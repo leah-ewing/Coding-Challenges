@@ -4,6 +4,7 @@ Return the index of the first occurrence of needle in haystack, or -1 if needle 
 
 Return 0 when needle is an empty string.
 
+
 >>> strStr("hello", "ll")
 2
 
@@ -53,12 +54,6 @@ def strStr(haystack, needle):
 
     print(answer)
 
-
-
-
-# strStr("hello", "ll") # => 2
-# strStr("aaaaaa", "aabb") # => -1
-# strStr('mississippi', 'issip') # => 4
 
 
 if __name__ == '__main__':
