@@ -1,6 +1,6 @@
 # include <stdio.h>
 
-/* Return the product of two numbers  */
+// Return the product of two numbers
 
 int main () {
     int a = 2;
@@ -9,3 +9,6 @@ int main () {
 
     printf("%i\n", product);
 }
+
+// Returns 12
+
