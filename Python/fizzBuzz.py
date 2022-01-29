@@ -13,16 +13,16 @@ def fizzBuzz(n):
 
     for num in range(1, n+1):
 
-        answer = ""
+        # answer = ""
 
         if num % 3 == 0:
-            answer += "Fizz"
-            if num % 5 == 0:
-                answer += "Buzz"
-        else:
-            answer += str(num)
+            print("Fizz")
+        if num % 5 == 0:
+            print("Buzz")
+        if num % 3 != 0 and num % 5 != 0:
+            print(num)
 
-        print(answer)
+        # print(f"{answer}\n")
 
 
 fizzBuzz(100)
