@@ -8,5 +8,5 @@ function backwardString(string) {
 };
 
 backwardString('val'); // 'lav'
-backwardString('ohho') // 'ohho'
-backwardString('123456789') // '987654321'
+backwardString('ohho'); // 'ohho'
+backwardString('123456789'); // '987654321'

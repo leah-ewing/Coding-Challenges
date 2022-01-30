@@ -18,13 +18,13 @@ function beginningZeros(number) {
         } else {
             break;
         }
-    } console.log(zeros.length)
+    } console.log(zeros.length);
 };
 
 
-beginningZeros('100') // 0
-beginningZeros('001') // 2
-beginningZeros('100100') // 0
-beginningZeros('001001') // 2
-beginningZeros('012345679') // 1
-beginningZeros('0000') // 4
+beginningZeros('100'); // 0
+beginningZeros('001'); // 2
+beginningZeros('100100'); // 0
+beginningZeros('001001'); // 2
+beginningZeros('012345679'); // 1
+beginningZeros('0000'); // 4

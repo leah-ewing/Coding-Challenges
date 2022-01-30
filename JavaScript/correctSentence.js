@@ -13,7 +13,7 @@ Precondition: No leading and trailing spaces, text contains only spaces, 'a-z', 
 function correctSentence(text) {
     let textList = [];
     const upper = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
-    let upperList = []
+    let upperList = [];
 
     for (let i = 0; i < text.length; i++) {
         textList.push(text[i]);
@@ -40,9 +40,9 @@ function correctSentence(text) {
 
 
 
-correctSentence("greetings, friends") // 'Greetings, friends.'
-correctSentence("Greetings, friends") // 'Greetings, friends.'
-correctSentence("Greetings, friends.") // 'Greetings, friends.'
-correctSentence("hi") // 'Hi.'
-correctSentence("welcome to New York") // 'Welcome to New York.'
+correctSentence("greetings, friends"); // 'Greetings, friends.'
+correctSentence("Greetings, friends"); // 'Greetings, friends.'
+correctSentence("Greetings, friends."); // 'Greetings, friends.'
+correctSentence("hi"); // 'Hi.'
+correctSentence("welcome to New York"); // 'Welcome to New York.'
 
