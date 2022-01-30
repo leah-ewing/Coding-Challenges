@@ -8,8 +8,8 @@ Output: An Int
 */
 
 function beginningZeros(number) {
-    let zeros = []
-    let i = 0
+    let zeros = [];
+    let i = 0;
 
     while (i < number.length) {
         if (number[i] == 0) {
