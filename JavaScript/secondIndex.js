@@ -28,5 +28,5 @@ function secondIndex(text, symbol) {
 
 
 secondIndex("sims", "s"); // 3
-secondIndex("find the river", "e") // 12
+secondIndex("find the river", "e"); // 12
 secondIndex("hi", " "); // null
