@@ -21,4 +21,4 @@ function isAcceptablePassword(password) {
 
 isAcceptablePassword("short"); // false
 isAcceptablePassword("ashort"); // false
-isAcceptablePassword("mushlonger"); // true
+isAcceptablePassword("muchlonger"); // true
