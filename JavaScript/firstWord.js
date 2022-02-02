@@ -13,7 +13,7 @@ Precondition: The text can contain a-z, A-Z and spaces.
 
 
 function firstWord(text) {
-    textList = text.split(" ");
+    const textList = text.split(" ");
     console.log(textList[0]);
 };
 

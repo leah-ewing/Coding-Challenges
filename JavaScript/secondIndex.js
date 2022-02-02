@@ -19,7 +19,7 @@ function secondIndex(text, symbol) {
     }
 
     if (indexes.length >= 2) {
-        answer = indexes[1];
+        let answer = indexes[1];
     }
 
     console.log(answer);

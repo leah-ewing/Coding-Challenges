@@ -6,8 +6,8 @@ the first, third and second element from the last for the given array
 */
 
 function easyUnpack(elements) {
-    unpackList = [];
-    secondFromLast = elements.length - 2;
+    let unpackList = [];
+    let secondFromLast = elements.length - 2;
     
     unpackList.push(elements[0], elements[2], elements[secondFromLast]);
 
