@@ -18,15 +18,13 @@ function isPalindrome(x) {
             xList.unshift(x[i]);
         } 
 
-        let reverseX = parseInt(xList.join(""));
+        const reverseX = parseInt(xList.join(""));
 
         if (reverseX == x) {
             console.log(true);
         } else {
             console.log(false);
         }
-
-
     }
 };
 

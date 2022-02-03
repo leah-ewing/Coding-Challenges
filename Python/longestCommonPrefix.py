@@ -12,6 +12,8 @@
 
 # """
 
+# ******* WORK IN PROGRESS *******
+
 def longestCommonPrefix(strs):
     string_list = []
     i = 0
