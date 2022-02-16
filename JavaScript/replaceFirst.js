@@ -11,8 +11,7 @@ Output: Array
 
 function replaceFirst(items) {
     if (items.length > 0) {
-        items.push(items[0]);
-        items.shift();
+        items.push(items.shift());
     } console.log(items);
 };
 
