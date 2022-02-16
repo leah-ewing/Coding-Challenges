@@ -8,11 +8,11 @@ Output: An Int (0-9)
 */
 
 function maxDigit(number) {
-    number = String(number);
-    numList = [];
+    const number = String(number);
+    let numList = [];
 
-    for (n = 0; n < number.length; n++) {
-        numList.push(parseInt(number[n]));
+    for (i = 0; i < number.length; i++) {
+        numList.push(parseInt(number[i]));
     }
     
     numList = numList.sort();
