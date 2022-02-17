@@ -21,9 +21,7 @@ function splitPairs(a) {
             } if (a.length % 2 != 0) {
                 pairs.push(`${a[a.length - 1]}_`);
             }
-    } else {
-        console.log(a);
-    }
+    } 
 
     console.log(pairs);
         
