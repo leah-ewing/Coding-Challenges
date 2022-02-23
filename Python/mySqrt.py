@@ -41,12 +41,6 @@ def mySqrt(x):
     print(answer)
 
 
-# mySqrt(8)
-# mySqrt(4)
-# mySqrt(16)
-# mySqrt(0)
-# mySqrt(2147395599) # => too big
-
 
 if __name__ == '__main__':
     import doctest

@@ -5,7 +5,7 @@ Then multiply this summed number and the final element of the array together.
 
 For an empty array, the result will always be 0 (zero).
 
-Input: A list of integers
+Input: An array of integers
 Output: The number as an integer
 
 */
