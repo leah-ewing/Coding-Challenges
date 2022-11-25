@@ -10,6 +10,7 @@ Rules for "Whale Speak":
 
 
 function toWhaleSpeak(input = "This is whale speak!") {
+    input = input.toLowerCase()
     const vowels = ["a", "e", "i", "o", "u"]
     let resultsArray = []
 
