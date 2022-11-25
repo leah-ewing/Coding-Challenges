@@ -7,16 +7,10 @@ Output: An Int (0-9)
 
 */
 
-function maxDigit(number) {
-    const number = String(number);
-    let numList = [];
-
-    for (i = 0; i < number.length; i++) {
-        numList.push(parseInt(number[i]));
-    }
-    
-    numList = numList.sort();
-    console.log(numList[numList.length - 1]);
+function maxDigit(value) {
+    const valueArray = String(value).split('')
+    valueArray.forEach(n => n = Number(n))
+    console.log(Math.max(...valueArray))
 };
 
 maxDigit(0); // 0
