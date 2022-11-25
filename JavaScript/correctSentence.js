@@ -27,9 +27,6 @@ function correctSentence(text) {
 
 }; 
 
-
-
-
 correctSentence("greetings, friends"); // 'Greetings, friends.'
 correctSentence("Greetings, friends"); // 'Greetings, friends.'
 correctSentence("Greetings, friends."); // 'Greetings, friends.'
