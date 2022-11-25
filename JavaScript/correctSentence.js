@@ -11,29 +11,19 @@ Precondition: No leading and trailing spaces, text contains only spaces, 'a-z', 
 */
 
 function correctSentence(text) {
-    let textList = [];
-    const upper = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
-    let upperList = [];
+    text = text.split("")
 
-    for (let i = 0; i < text.length; i++) {
-        textList.push(text[i]);
-    } for (let j = 0; j < upper.length; j++) {
-        upperList.push(upper[j]);
+    if (text[0] != text[0].toUpperCase()) {
+        text[0] = text[0].toUpperCase()
+    } 
+
+    const lastIndex = text.length - 1
+
+    if (text[lastIndex] != ".") {
+        text.push(".")
     }
 
-    if (textList[0] in upperList === false) {
-        let firstLetter = textList[0].toUpperCase();
-        textList.shift();
-        textList.unshift(firstLetter);
-    }
-
-    let lastIndex = textList.length - 1;
-
-    if (textList[lastIndex] != '.') {
-        textList.push('.');
-    }
-
-    console.log(textList.join(''));
+    console.log(text.join(""))
 
 }; 
 
