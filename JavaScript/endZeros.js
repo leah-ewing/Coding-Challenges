@@ -7,26 +7,16 @@ Output: An Int.
 
 */
 
-function endZeros(num) {
-    let reverseList = [];
-    const num = String(num);
-    let zeroCounter = 0;
-    let zeros = true;
+function endZeros(a) {
+    a = String(a).split("").reverse()
+    let i = 0
+    let count = 0
 
-    for (let i = 0; i < num.length; i++) {
-        reverseList.unshift(num[i]);
+    while (i < a.length && a[i] == "0") {
+        count++, i++
     }
 
-    let j = 0;
-
-    while (zeros == true) {
-        if (reverseList[j] == '0') {
-            zeroCounter++;
-            j++;
-        } else {
-            zeros = false;
-        }
-    } console.log(zeroCounter);
+    console.log(count)
 };
 
 
