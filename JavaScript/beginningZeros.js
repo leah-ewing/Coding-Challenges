@@ -7,18 +7,16 @@ Output: An Int
 
 */
 
-function beginningZeros(number) {
-    let zeros = [];
-    let i = 0;
+function beginningZeros(a) {
+    a = a.split('')
+    let i = 0
+    let count = 0
 
-    while (i < number.length) {
-        if (number[i] == 0) {
-            zeros.push(number[i]);
-            i++;
-        } else {
-            break;
-        }
-    } console.log(zeros.length);
+    while (a[i] == 0 && i < a.length) {
+        count++, i++
+    }
+    
+    console.log(count)
 };
 
 
