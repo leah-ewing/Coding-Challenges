@@ -8,15 +8,15 @@ Output: An Int
 */
 
 function beginningZeros(a) {
-    a = a.split('')
+    a = a.split("")
     let i = 0
     let count = 0
 
-    while (a[i] == 0 && i < a.length) {
+    while (i < a.length && a[i] == "0") {
         count++, i++
     }
-    
-    console.log(count)
+
+    return count
 };
 
 
