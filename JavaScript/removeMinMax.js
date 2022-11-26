@@ -32,7 +32,7 @@ function removeMinMax(data, total) {
             count++
         }
     
-        console.log(new Set([dataArray]))
+        console.log(new Set(dataArray))
     }
 }
 
