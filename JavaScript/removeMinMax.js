@@ -15,11 +15,7 @@ function removeMinMax(data, total) {
     if (data.size == 0) {
         console.log(data)
     } else {
-        let dataArray = []
-
-        data.forEach(element => {
-            dataArray.push(element)
-        })
+        dataArray = [...data]
     
         let maxNum
         let minNum
@@ -31,7 +27,6 @@ function removeMinMax(data, total) {
             dataArray = dataArray.filter(element => element != maxNum && element != minNum)
             count++
         }
-    
         console.log(new Set(dataArray))
     }
 }
