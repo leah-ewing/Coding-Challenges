@@ -31,8 +31,8 @@ function removeMinMax(data, total) {
     }
 }
 
-removeMinMax(new Set([8, 9, 18, 7]), 1); // new Set([8, 9])
-removeMinMax(new Set([8, 9, 7]), 0) // new Set([8, 9, 7])
-removeMinMax(new Set([8, 9, 7]), 2) // new Set([])
-removeMinMax(new Set([1, 2, 7, 8, 9]), 2) // new Set([7])
-removeMinMax(new Set([]), 1) // new Set([])
+removeMinMax(new Set([8, 9, 18, 7]), 1); // Set(2) { 8, 9 }
+removeMinMax(new Set([8, 9, 7]), 0) // Set(3) { 8, 9, 7 }
+removeMinMax(new Set([8, 9, 7]), 2) // Set(0) {}
+removeMinMax(new Set([1, 2, 7, 8, 9]), 2) // Set(1) { 7 }
+removeMinMax(new Set([]), 1) // Set(0) {}
