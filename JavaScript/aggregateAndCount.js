@@ -27,12 +27,9 @@ function aggregateAndCount(items) {
     for (let i in items) {
         const name = items[i][0]
         const value = items[i][1]
-        if (name in itemsDict) {
-            itemsDict[name] = itemsDict[name] + value
-        } else {
-            itemsDict[name] = value
-        }
+        itemsDict[name] = name in itemsDict ? itemsDict[name] + value : value
     }
+
     console.log(itemsDict)
 }
 
