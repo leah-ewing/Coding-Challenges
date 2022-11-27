@@ -1,6 +1,6 @@
 /*
 
-Check if all elements in the givenarray are equal
+Check if all elements in the given array are equal
 
 */
 
