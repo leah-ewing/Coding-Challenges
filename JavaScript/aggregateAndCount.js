@@ -24,11 +24,11 @@ aggregateAndCount([["a", 1], ["a", 2]])
 function aggregateAndCount(items) { 
     const itemsDict = {}
 
-    for (let i in items) {
-        const name = items[i][0]
-        const value = items[i][1]
+    items.forEach(item => {
+        const name = item[0]
+        const value = item[1]
         itemsDict[name] = name in itemsDict ? itemsDict[name] + value : value
-    }
+    })
 
     console.log(itemsDict)
 }
