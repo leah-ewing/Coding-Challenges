@@ -26,6 +26,7 @@ Example:
 
 function missingNumber(items) {
     const itemsArray = items.sort((a, b) => a - b)
+    console.log("itemsArray:", itemsArray)
     let diffArray = []
 
     let i = 0

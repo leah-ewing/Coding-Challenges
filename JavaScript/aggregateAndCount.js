@@ -1,6 +1,6 @@
 /*
 
-You have a list of values where each element is a list of two values, `name` and `counter`
+You have a list of values where each element is a list of two values, "name" and "counter"
 
 Aggregate those values into a dict, if you find more that one elements with the same name, sum their counters in the aggregated dict.
 
@@ -27,7 +27,7 @@ function aggregateAndCount(items) {
     for (let i in items) {
         const name = items[i][0]
         const value = items[i][1]
-        if (items[i][0] in itemsDict) {
+        if (name in itemsDict) {
             itemsDict[name] = itemsDict[name] + value
         } else {
             itemsDict[name] = value
