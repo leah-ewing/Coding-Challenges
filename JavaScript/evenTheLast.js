@@ -11,19 +11,17 @@ Output: The number as an integer
 */
 
 function evenTheLast(array) {
+    let amount = 0
 
-    let evenIndexes = [];
-
-    if (array.length == 0) {
-        console.log(array.length)
-    } else {
-        for (i = 0; i < array.length; i++) {
-            if (i % 2 == 0) {
-                evenIndexes.push(array[i]);
-            }
+    if (data.length > 0) {
+        for (let i = 0; i < data.length; i += 2) {
+            amount += data[i]
         }
-        console.log(evenIndexes.reduce((a, b) => a + b, 0) * array[array.length - 1]);
+    
+        amount = amount * data[data.length - 1]
     }
+
+    console.log(amount)
 };
 
 evenTheLast([0, 1, 2, 3, 4, 5]); // 30
