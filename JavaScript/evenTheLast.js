@@ -24,8 +24,8 @@ function evenTheLast(data) {
     console.log(amount)
 };
 
-evenTheLast([0, 1, 2, 3, 4, 5]); // 30
+evenTheLast([0, 1, 2, 3, 4, 5]) // 30
 evenTheLast([1, 3, 5]) // 30
-evenTheLast([6]); // 36
-evenTheLast([]); // 0
+evenTheLast([6]) // 36
+evenTheLast([]) // 0
 
