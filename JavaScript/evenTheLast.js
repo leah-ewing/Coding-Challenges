@@ -10,7 +10,7 @@ Output: The number as an integer
 
 */
 
-function evenTheLast(array) {
+function evenTheLast(data) {
     let amount = 0
 
     if (data.length > 0) {
